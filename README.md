@@ -1,6 +1,8 @@
-# tfout-to-envv
+# tfout-to-env
 
 terraform json output convert to env values
+
+[dockerhub](https://hub.docker.com/r/mamemomonga/tfout-to-env)
 
 # Examples
 
@@ -62,7 +64,7 @@ output terraform
 
 example1(optimized for shell)
 
-	$ docker run --rm -v $(pwd)/data:/data:ro [DOCKER_IMAGE]
+	$ docker run --rm -v $(pwd)/data:/data:ro mamemomonga/tfout-to-env:latest
 
 result
 
@@ -79,7 +81,7 @@ result
 
 example2(optimized for docker envfile, Makefile)
 
-	$ docker run --rm -v $(pwd)/data:/data:ro [DOCKER_IMAGE] -n
+	$ docker run --rm -v $(pwd)/data:/data:ro mamemomonga/tfout-to-env:latest -n
 
 result
 
