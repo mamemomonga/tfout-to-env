@@ -43,7 +43,7 @@ main.tf
 	  ]
 	}
 
-data/cofnig.yaml
+data/config.yaml
 
 	- key:    output1
 	  prefix: OUT1
