@@ -1,0 +1,12 @@
+
+- key:    output1
+  prefix: OUT1
+
+- key:    output2
+  prefix: OUT2
+
+- key:    output3.index3b
+  prefix: OUT3B
+
+- key:    output4
+  prefix: OUT4
